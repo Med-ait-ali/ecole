@@ -6,6 +6,8 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    // تأكد أن CSS يتضمن في البناء
+    cssCodeSplit: false,
   }
 })
