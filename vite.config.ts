@@ -3,11 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
   build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-    // تأكد أن CSS يتضمن في البناء
-    cssCodeSplit: false,
+    outDir: 'dist'
   }
+  // لا تضع base: '/' (هو الافتراضي)
 })
