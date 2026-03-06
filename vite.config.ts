@@ -6,5 +6,4 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   }
-  // لا تضع base: '/' (هو الافتراضي)
 })
